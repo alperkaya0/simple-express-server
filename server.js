@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 app.get("/", function(req,res) {
-    res.send("<h1>Mr.Sexo</h1>");    
+    res.send("<h1>Hello World</h1>");    
 })
 let port = 3000;
 app.listen(port, function() {
